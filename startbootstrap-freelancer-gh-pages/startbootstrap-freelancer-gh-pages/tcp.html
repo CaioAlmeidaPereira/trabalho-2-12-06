@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>Trabalho 2</title>
+    <!-- Favicon-->
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+    <!-- Font Awesome icons (free version)-->
+    <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
+    <!-- Google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet"
+        type="text/css" />
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="css/styles.css" rel="stylesheet" />
+</head>
+
+<body id="page-top">
+    <!-- Navigation-->
+
+
+    <!-- Masthead-->
+    <header class="masthead bg-primary text-white text-center">
+        <div class="container d-flex align-items-center flex-column">
+            <!-- Masthead Avatar Image-->
+            <!--<img class="masthead-avatar mb-5" src="assets/img/avataaars.svg" alt="..." />-->
+            <!-- Masthead Heading-->
+            <h1 class="masthead-heading text-uppercase mb-0">Protocolos</h1>
+            <!-- Icon Divider-->
+            <div class="divider-custom divider-light">
+                <div class="divider-custom-line"></div>
+                <!-- <div class="divider-custom-icon"><i class="fas fa-star"></i></div>-->
+                <div class="divider-custom-line"></div>
+            </div>
+            
+            <!-- Masthead Subheading-->
+            <p class="masthead-subheading font-weight-light mb-0">IPV4 - IPV6 - padrões - protocolos</p>
+            <br>
+            <a href="index.html">
+                <button class="btn botao-voltar">
+                    
+                    voltar
+                </button>
+            </a>
+        </div>
+    </header>
+    <div class="container">
+        <!-- Portfolio Section Heading-->
+        <BR>
+        <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">TCP x UDP</h2>
+        <!-- Icon Divider-->
+        <div class="divider-custom">
+            <div class="divider-custom-line"></div>
+
+            <div class="divider-custom-line"></div>
+        </div>
+        <p class="mb-4">
+        <ul>
+            <li>UDP (User Datagram Protocol) e TCP (Transmission Control Protocol) são dois protocolos fundamentais na
+                camada de transporte da pilha de protocolos TCP/IP, utilizados para facilitar a comunicação entre
+                dispositivos em uma rede de computadores.</li>
+        </ul>
+        </p>
+        <p class="mb-4">
+        <ul>
+            <li>O UDP é um protocolo de comunicação de dados simples e de baixo overhead. Ele oferece uma entrega de
+                dados rápida e eficiente, mas não garante a entrega ou a ordem das mensagens. Isso o torna ideal para
+                aplicativos que exigem uma transmissão de dados rápida, como streaming de vídeo, jogos online e
+                transmissão de áudio em tempo real.</li>
+        </ul>
+        </p>
+        <p class="mb-4">
+        <ul>
+            <li>Por outro lado, o TCP é um protocolo de comunicação orientado à conexão, que estabelece uma conexão
+                confiável e bidirecional entre os dispositivos. Ele garante a entrega ordenada, sem perda ou duplicação
+                de dados, através de mecanismos como confirmação de recebimento e retransmissão de pacotes perdidos. O
+                TCP é amplamente utilizado em aplicativos que exigem uma transmissão de dados precisa e confiável, como
+                transferência de arquivos, navegação na web e e-mails.Em resumo, enquanto o UDP prioriza a velocidade e
+                a eficiência, o TCP prioriza a confiabilidade e a precisão na entrega de dados. Cada protocolo é
+                adequado para diferentes tipos de aplicativos e cenários de comunicação, e a escolha entre eles depende
+                das necessidades específicas de cada situação.
+
+
+
+        </ul>
+        </p>
+        <p class="mb-4">
+        <ul>
+            <li>Em resumo, enquanto o UDP prioriza a velocidade e a eficiência, o TCP prioriza a confiabilidade e a
+                precisão na entrega de dados. Cada protocolo é adequado para diferentes tipos de aplicativos e cenários
+                de comunicação, e a escolha entre eles depende das necessidades específicas de cada situação.
+            </li>
+        </ul>
+        </p>
+        <br>
+        <table>
+            <tr>
+                <th>Diferença</th>
+                <th>UDP (User Datagram Protocol)</th>
+                <th>TCP (Transmission Control Protocol)</th>
+            </tr>
+            <tr>
+                <td>Conexão</td>
+                <td>Não há conexão prévia entre o emissor e o receptor; é uma comunicação sem conexão</td>
+                <td>Estabelece uma conexão confiável entre o emissor e o receptor antes da transferência de dados; é uma comunicação orientada à conexão</td>
+            </tr>
+            <tr>
+                <td>Confiabilidade</td>
+                <td>Não garante a entrega dos dados; pode haver perda ou duplicação de pacotes</td>
+                <td>Garante a entrega dos dados, retransmitindo pacotes perdidos e garantindo a ordem correta de entrega</td>
+            </tr>
+            <tr>
+                <td>Overhead</td>
+                <td>Menor overhead devido à falta de controle de fluxo, controle de congestionamento e confirmações de entrega</td>
+                <td>Maior overhead devido aos mecanismos de controle de fluxo, controle de congestionamento e confirmações de entrega</td>
+            </tr>
+            <tr>
+                <td>Rapidez</td>
+                <td>Transmite dados de forma rápida e eficiente, adequado para aplicações que exigem baixa latência</td>
+                <td>Transmite dados de forma mais lenta devido à necessidade de estabelecer conexões e garantir a entrega confiável dos dados</td>
+            </tr>
+            <tr>
+                <td>Aplicações</td>
+                <td>Utilizado em aplicações que requerem uma transmissão rápida de dados, como streaming de vídeo, jogos online e VoIP</td>
+                <td>Utilizado em aplicações que requerem uma entrega confiável de dados, como transferência de arquivos, navegação na web e e-mails</td>
+            </tr>
+        </table>
+        
+
+
+        <p>
+            <ul>
+                <a href="https://youtu.be/uRvjPlbJ_98?si=m385KPr_XjhGiN3B">VIDEO EXPLICATIVO</a> <br><br>
+            </ul>
+        </p>
+    </div>   
+
+        
+        
+
+
+
+</body>
+
+</html>
